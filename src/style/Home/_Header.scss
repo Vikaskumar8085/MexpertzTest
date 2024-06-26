@@ -1,0 +1,53 @@
+header {
+    display         : flex;
+    justify-content : space-around;
+    align-items     : center;
+    position        : relative;
+    overflow        : hidden;
+    padding         : 10px 0px;
+    background-color: rgb(16, 34, 60);
+
+    .logo {
+        color: white;
+
+        img {
+            margin: 0px 4px;
+        }
+    }
+
+    ul {
+
+        position: relative;
+        overflow: hidden;
+
+        li {
+            display       : inline-block;
+            margin        : 0px 10px;
+            color         : #f1f1f19b;
+            text-transform: capitalize;
+            font-family   : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size     : 1em;
+            font-weight   : 500;
+        }
+    }
+
+    .button {
+        display : block;
+        overflow: hidden;
+
+
+        button {
+            color          : white;
+            font-size      : 1em !important;
+            align-items    : center;
+            background     : linear-gradient(93deg, #761de8 -2.94%, #29bdec 56.14%);
+            border-radius  : 44px;
+            display        : flex;
+            font-size      : 18px;
+            height         : 100%;
+            justify-content: center;
+            padding        : 5px 20px;
+            width          : 100%;
+        }
+    }
+}

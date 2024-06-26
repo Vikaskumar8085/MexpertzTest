@@ -1,0 +1,23 @@
+.ViewBox {
+    background-color: rgb(16, 34, 60);
+    height          : 100vh;
+    color           : white !important;
+
+    // filter
+    @import "./filter";
+    // filter
+
+    // Storyadvenure
+    @import "./Storyadvenure";
+
+
+
+    // wordexplore
+    @import "./wordexplore";
+
+    // Brainquest Block css
+
+    @import "./brainquest";
+
+
+}

@@ -1,0 +1,63 @@
+.Wordexplore {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+
+
+
+    .Wordexplore_Card {
+        margin          : 10px 20px;
+        position        : relative;
+        background-image: linear-gradient(93deg, #761de8 -2.94%, #29bdec 56.14%);
+        padding         : 15px;
+        border-radius   : 20px;
+        overflow        : hidden;
+
+        .Wordexplore_title {
+            h5 {
+                text-align    : center;
+                font-size     : 1em;
+                font-family   : 'Times New Roman', Times, serif;
+                text-transform: uppercase;
+            }
+
+            p {
+                text-align     : center;
+                font-weight    : 300;
+                text-decoration: none;
+                text-transform : capitalize;
+            }
+        }
+
+        .wordImage {
+            width          : auto;
+            display        : flex;
+            justify-content: center;
+            height         : auto;
+
+            img {
+                height: 200px;
+                width : 200px;
+            }
+        }
+
+        .wordtext {
+            margin: 10px 0px;
+
+            h4 {
+                font-size  : 1em;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 560;
+                text-align : center;
+
+            }
+
+            p {
+                text-align : center;
+                font-size  : 1em;
+                font-weight: 300;
+            }
+        }
+
+    }
+}

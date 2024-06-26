@@ -1,0 +1,52 @@
+.Product_Card {
+    display      : block;
+    overflow     : hidden;
+    background   : linear-gradient(93deg, #761de8 -2.94%, #29bdec 56.14%);
+    position     : relative;
+    border-radius: 8px;
+    padding      : 20px;
+    height       : auto;
+
+    // image
+    .product_image {
+        img {
+            width   : 100%;
+            height  : 250px;
+            overflow: hidden;
+        }
+    }
+
+    // image
+
+    article {
+        width      : 100%;
+        display    : grid;
+        place-items: center;
+        overflow   : hidden;
+
+
+        h3 {
+            text-align     : center;
+            font-size      : 1.3em;
+            font-family    : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin         : 10px 0px;
+            text-decoration: none;
+            color          : white;
+            text-transform : capitalize;
+
+
+        }
+
+        button {
+            width        : 100%;
+            border-radius: 100px;
+            margin       : 5px 0px;
+            border       : none;
+            padding      : 10px 0px;
+
+
+
+
+        }
+    }
+}
